@@ -1,0 +1,11 @@
+language: "pt"
+intents:
+  HassTurnOn:
+    data:
+      - sentences:
+          - "<turn> on [the] (light | lights) in <area>" # TODO
+          - "<turn> [the] (light | lights) in <area> on" # TODO
+          - "<turn> on all [the] lights in <area>" # TODO
+          - "<turn> all [the] lights in <area> on" # TODO
+        slots:
+          domain: "light"
