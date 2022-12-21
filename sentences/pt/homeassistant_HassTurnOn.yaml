@@ -1,0 +1,7 @@
+language: "pt"
+intents:
+  HassTurnOn:
+    data:
+      - sentences:
+          - "liga <name>"
+          #- "turn <name> on"
