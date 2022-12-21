@@ -1,0 +1,7 @@
+language: "pt"
+intents:
+  HassTurnOff:
+    data:
+      - sentences:
+          - "desliga <name>"
+          # - "turn <name> off"
