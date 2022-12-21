@@ -1,0 +1,9 @@
+
+language: "pt"
+intents:
+  HassClimateSetTemperature:
+    data:
+      - sentences:
+          - "muda [the] <temp> para <temperature>"
+          - "muda [the] <temp> na <area> para <temperature>"
+          - "muda <area> <temp> para <temperature>"
