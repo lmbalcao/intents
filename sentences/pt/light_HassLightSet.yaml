@@ -1,0 +1,17 @@
+language: "pt"
+intents:
+  HassLightSet:
+    data:
+      # brightness
+      - sentences:
+          - "mete o brilho de <name> para <brightness>"
+          #- "set [the] brightness of <name> to <brightness>"
+      - sentences:
+          - "mete [the] o brilho da <area> para <brightness>"
+          #- " <area> brightness to <brightness>"
+        slots:
+          name: "all"
+      # color
+      - sentences:
+          - "set <name> [color] to {color}" # TODO
+          - "set [[the] color of] <name> to {color}" # TODO
