@@ -1,0 +1,18 @@
+language: "pt"
+intents:
+  HassOpenCover:
+    data:
+      - sentences:
+          - "abre <name>"
+          - "abre <name> na <area>"
+      - sentences:
+          - "abre [the] porta da garagem"
+        slots:
+          device_class: "garage_door"
+      - sentences:
+          - "abre [the] persisnas na <area>"
+        slots:
+          device_class:
+            - "blind"
+            - "curtain"
+            - "shutter"
