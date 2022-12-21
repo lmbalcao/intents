@@ -1,0 +1,8 @@
+
+language: "pt"
+intents:
+  HassClimateGetTemperature:
+    data:
+      - sentences:
+          - "<qual é> [the] <temp>"
+          - "<qual é> [the] <temp> na <area>"
