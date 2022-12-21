@@ -1,0 +1,19 @@
+language: "pt"
+intents:
+  HassCloseCover:
+    data:
+      - sentences:
+          - "fecha <name>"
+          - "fecha <name> na <area>"
+      - sentences:
+          - "fecha [the] porta da garagem"
+        slots:
+          device_class: "garage_door"
+      - sentences:
+          - "fecha [the] persianas na <area>"
+          - "fecha <area> persianas"
+        slots:
+          device_class:
+            - "blind"
+            - "curtain"
+            - "shutter"
