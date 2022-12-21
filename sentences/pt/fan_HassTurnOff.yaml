@@ -1,0 +1,9 @@
+language: "pt"
+intents:
+  HassTurnOff:
+    data:
+      - sentences:
+          - "<turn> off [all] [the] (fan | fans) in <area>" # TODO 
+        slots:
+          domain: "fan"
+          name: "all"
