@@ -3,7 +3,7 @@ intents:
   HassTurnOff:
     data:
       - sentences:
-          - "<turn> off [all] [the] (fan | fans) in <area>" # TODO 
+          - "<desliga> [todas] (a|as) (ventoinha | ventoinhas) (da|do|de) <area>"
         slots:
           domain: "fan"
           name: "all"
